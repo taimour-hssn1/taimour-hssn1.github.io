@@ -17,6 +17,8 @@ A modern, responsive portfolio website showcasing my projects, skills, and profe
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap
+- GitHub Pages
 - [Template Used: Forty by HTML5 UP](https://html5up.net/forty)
 
 ## 📋 Sections
