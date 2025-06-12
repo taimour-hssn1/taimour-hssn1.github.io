@@ -31,18 +31,11 @@ A modern, responsive portfolio website showcasing my projects, skills, and profe
 
 ## 🔗 Links
 
-- [Live Portfolio](https://taimourhssn.github.io)
+- [Live Portfolio](https://taimour-hssn1.github.io)
 - [GitHub Profile](https://github.com/taimour-hssn1)
 - [LinkedIn Profile](https://www.linkedin.com/in/taimourh05)
 
-## 🚀 Deployment
 
-This portfolio is deployed using GitHub Pages. To deploy your own version:
-
-1. Fork this repository
-2. Enable GitHub Pages in your repository settings
-3. Select the main branch as the source
-4. Your site will be published at `https://[your-username].github.io/[repository-name]`
 
 ## 📫 Contact
 
