@@ -1,17 +1,42 @@
-## Portfolio-Website
-Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
+# 🌐 Personal Portfolio — Taimour Hassan
 
-<
+Welcome to my personal portfolio website:  
+[**taimour-hssn1.github.io**](https://taimour-hssn1.github.io)  
 
+This site showcases my work, skills, and projects as a developer, along with ways to connect with me.
 
-### Extras : 
-Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
+---
 
-## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](https://user-images.githubusercontent.com/Mainpage.png)
-![ss](https://user-images.githubusercontent.com/64949957/159113640-d92665a8-f614-42b3-8456-66b97fc2e651.png)
+## ✨ Features
 
+- **About Me** — Learn about my background, skills, and interests.  
+- **Projects** — A showcase of my key development projects with links and details.  
+- **Skills** — A tech stack section highlighting the tools and technologies I use.  
+- **Contact** — Easy ways to reach me through email or social platforms.  
+- **Responsive Design** — Fully mobile-friendly experience.
 
-<h2>📬 Contact</h2>
+---
 
-Feel free to reach me through the below handles if you'd like to contact me.
+## 🛠 Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Styling:** CSS / Tailwind / Bootstrap   
+- **Hosting:** GitHub Pages
+
+---
+
+## 🚀 Running Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/taimour-hssn1/portfolio.git
+```
+# 2. Navigate into the folder
+```
+cd portfolio
+```
+# 3. Open index.html in your browser
+📬 Contact
+Portfolio URL: taimour-hssn1.github.io
+Email: taimourh05@gmail.com
+GitHub: github.com/taimour-hssn1
