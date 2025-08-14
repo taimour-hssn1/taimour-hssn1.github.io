@@ -2,7 +2,7 @@
   {
     "name": "Subjectify",
     "desc": "A Web App that helps beginners to find the resorces link to get started with programming",
-    "image": "Subjectify",
+    "image": "subjectify",
     "category": "subjectify",
     "links": {
       "view": "https://subjectify.vercel.app/",
