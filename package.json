@@ -1,0 +1,16 @@
+{
+  "name": "modern-portfolio-",
+  "version": "1.0.0",
+  "description": "Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.",
+  "main": "index.js",
+ "scripts": {
+  "build": "echo 'No build step required for static site.'"
+},
+ "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+  
+}

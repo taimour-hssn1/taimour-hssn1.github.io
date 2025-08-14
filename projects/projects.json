@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Subjectify",
+    "desc": "A Web App that helps beginners to find the resorces link to get started with programming",
+    "image": "Subjectify",
+    "category": "subjectify",
+    "links": {
+      "view": "https://subjectify.vercel.app/",
+      "code": "https://github.com/affanabid/subjectify"
+    }
+  }, 
+  {
+    "name": "DevConnector",
+    "desc": "DevConnector is a social platform for developers to connect, share ideas, and collaborate.",
+    "image": "devconnector",
+    "category": "devconnector",
+    "links": {
+      "view": "https://frontend-devconnector.onrender.com/",
+      "code": "https://github.com/taimour-hssn1/DevConnector"
+    }
+  }, 
+  {
+    "name": "Disney+ Clone",
+    "desc": "A clone of Disney+ in react using styled components",
+    "image": "clone",
+    "category": "clone",
+    "links": {
+      "view": "https://disney-clone-231db.web.app/",
+      "code": "https://github.com/taimour-hssn1/Clones"
+    }
+  }, 
+  {
+    "name": "Brick Breaker",
+    "desc": "This is a Brick Breaker game in <b>Assembly Language</b> built in masm 8086 intel system.",
+    "image": "brick",
+    "category": "brickbreaker",
+    "links": {
+      "code": "https://github.com/taimour-hssn1/BrickBreaker"
+    }
+  }, 
+  {
+    "name": "Inventory Management System",
+    "desc": "A robust and scalable Inventory Management System",
+    "image": "inventory",
+    "category": "inventory",
+    "links": {
+      "code": "https://github.com/taimour-hssn1/Inventory"
+    }
+  }, 
+  {
+    "name": "Mini Voting System",
+    "desc": "A flexible and trustworthy voting system written in C. This project can be used by small or large groups—ideal for batches, classes, or any group-based election process.",
+    "image": "voting",
+    "category": "voting",
+    "links": {
+      "code": "https://github.com/taimour-hssn1/Mini-Voting-System"
+    }
+  }
+  
+]

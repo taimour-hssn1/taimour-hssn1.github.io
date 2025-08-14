@@ -1,54 +1,17 @@
-# Taimour Hassan's Portfolio Website
+## Portfolio-Website
+Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
 
-A modern, responsive portfolio website showcasing my projects, skills, and professional experience. Built with HTML5, CSS3, and JavaScript.
-
-## 🚀 Features
-
-- Responsive design that works on all devices
-- Modern and clean UI
-- Project showcase section
-- Professional profile section
-- Interactive navigation
-- Contact information and social links
-- Resume download option
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- GitHub Pages
-- [Template Used: Forty by HTML5 UP](https://html5up.net/forty)
-
-## 📋 Sections
-
-1. **Home** - Introduction and quick navigation
-2. **Profile** - Detailed information about me
-3. **Projects** - Showcase of my work including:
-   - Subjectify - A web application for learning resources
-   - Brick Breaker - Assembly Language Game
-   - CMS Clone - Frontend web application
-4. **Resume** - Professional experience and skills
-
-## 🔗 Links
-
-- [Live Portfolio](https://taimour-hssn1.github.io)
-- [GitHub Profile](https://github.com/taimour-hssn1)
-- [LinkedIn Profile](https://www.linkedin.com/in/taimourh05)
+<
 
 
+### Extras : 
+Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 
-## 📫 Contact
+## 📌 Sneak Peek of Main Page 🙈 :
+![mockup720](https://user-images.githubusercontent.com/Mainpage.png)
+![ss](https://user-images.githubusercontent.com/64949957/159113640-d92665a8-f614-42b3-8456-66b97fc2e651.png)
 
-- Email: taimourh05@gmail.com
-- LinkedIn: [Taimour Hassan](https://www.linkedin.com/in/taimourh05)
-- GitHub: [taimour-hssn1](https://github.com/taimour-hssn1)
 
-## 📝 License
+<h2>📬 Contact</h2>
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Made with ❤️ by Taimour Hassan
+Feel free to reach me through the below handles if you'd like to contact me.

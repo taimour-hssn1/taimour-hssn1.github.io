@@ -1,183 +1,356 @@
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Portfolio - Taimour</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+`<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Taimour, portfolio, Taimour, FullStack Developer" />
+    <meta name="description" content="Welcome to Taimour's Portfolio.  FullStack Developer, Cloud Enginering/DevOps Enthusist" />
+    <!-- Theme -->
+    <script src="/assets/js/theme.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id="favicon" rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+    <title>Taimour Hassan | Portfolio</title>
+</head>
+<body oncontextmenu="return false">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Taimour Hassan</a>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Portfolio</strong> <span>Taimour Hassan</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+                <i class="fas fa-moon"></i>
+              </button>
+            </li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="./profile.html">Profile</a></li>
-							<li><a href="./projects.html">Projects</a></li>
-							<li><a href="./resume.html">Resume</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="mailto:taimourh05@gmail.com" class="button primary fit">Contact via Email</a></li>
-							<li><a href="https://www.linkedin.com/in/taimourh05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button fit">Linkedin</a></li>
-						</ul>
-					</nav>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Taimour Hassan</h1>
-							</header>
-							<div class="content">
-								<p>
-									MERN Stack Developer | Competitive Programmer
-								</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">
-										Profile
-									</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
 
-				<!-- Main -->
-					<div id="main">
+    <div class="content">
+    <h2>Hi There,<br/> I'm Taimour <span>Hassan</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/taimourh05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/taimour-hssn1" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/waving-cartoon.gif" alt="Cartoon character waving hello"
+         onerror="if(!this.dataset.try1){this.dataset.try1=1;this.src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDZnOWoyOGF2aHNjZ3dsZzY2OWMyYnM0dnJ5eTlsZnJpMTR1azN3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LPgFwCQg4HQBvPihcn/giphy.gif';}else{this.onerror=null;this.src='./assets/images/hero1.png';}">
+</div>
+</section>
+<!-- hero section ends -->
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="projects.html" class="link">Projects</a></h3>
-										<p>My projects till this date</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="profile.html" class="link">Profile</a></h3>
-										<p>Know more about me</p>
-									</header>
-								</article>
-								
-							</section>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Resume</h2>
-									</header>
-									<p>Click the link to view my resume</p>
-									<ul class="actions">
-										<li><a href="./resume.html" class="button next">Resume</a></li>
-									</ul>
-								</div>
-							</section>
+<!-- about section starts -->
+<!-- about section starts -->
+<section class="about" id="about">
+  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
-					</div>
+  <div class="row">
+    <!-- <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/profile2.png" alt="Profile Image">
+    </div> -->
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="POST" action="https://formspree.io/f/xyzjegra">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="email" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="mailto:taimourh05@gmail.com">taimourh05@gmail.com</a>
+    <div class="content">
+      <h3>I am <span style="color:#2506ad;">Taimour Hassan</span></h3>
+      <span class="tag">FullStack Developer | DevOps Enthusiast</span>
 
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(92) 323-6193586</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>Lahore<br />
-										Pakistan</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
+      <p>
+        I am a <span class="highlight-blue">FullStack Developer</span> based in 
+        <span class="highlight-purple">Lahore, Pakistan</span>. I’m pursuing a degree in 
+        <span class="highlight-orange">Computer Science</span> from 
+        <span class="highlight-blue">Punjab University College of Information Technology</span> with a focus on 
+        <span class="highlight-pink">Web Development</span> and 
+        <span class="highlight-orange">DevOps</span>.
+      </p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner" style="text-align: center;">
-							<ul class="icons">
-								
-								<li><a href="https://github.com/taimour-hssn1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="mailto:taimourh05@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+      <p>
+        I'm passionate about developing scalable systems and creating impactful 
+        <span class="highlight-green">projects</span> using 
+        <span class="highlight-cyan">Python Frameworks (Django, Flask, FastAPI) </span> on the backend side and the 
+        <span class="highlight-purple">React (Vite) </span> on the frontend. I love solving real-world problems and exploring new technologies.
+      </p>
 
-								<li><a href="https://www.linkedin.com/in/taimourh05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>2025 Taimour Hassan.</li><li> All Rights Reserved.</li>
-							</ul>
-						</div>
-					</footer>
+      <p>
+        I strive to build clean APIs, learn continuously, and contribute to innovative 
+        <span class="highlight-yellow">Full-Stack Applications</span>.
+      </p>
 
-			</div>
+      <div class="box-container">
+        <div class="box">
+          <p><span>email :</span> taimourh05@gmail.com</p>
+          <p><span>place :</span> Lahore, Pakistan</p>
+        </div>
+      </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <div class="resumebtn">
+        <a href="./assets/Taimour-CV.pdf" target="_blank" class="btn">
+          <span>Resume</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about section ends -->
 
-	</body>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/pucit.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelors in Computer Science</h3>
+        <p>Punjab University College of Information Technology (PUCIT) | Punjab</p>
+        <h4>2022-2026 | Currently Enrolled
+        </h4>
+        </div>
+    </div>
+
+  <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>FSc Pre-Engineering</h3>
+      <p>Chenab College Jhang | Jhang</p>
+      <h4>2020-2022 | Completed (1063 / 1100)</h4>
+    </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+  </div>
+  <div class="content">
+  <h3>Matric </h3>
+  <p>Chenab College Jhang | Jhang</p>
+  <h4>2018-2020 | Completed (1074 / 1100)</h4>
+</div>
+</div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Zendev Co</h2>
+        </div>
+        <div class="desc">
+            <h3>StartUp</h3>
+            <h3>Python Developer | Full Stack Developer</h3>
+            <p>July 2025 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>IREG-IT</h2>
+        </div>
+        <div class="desc">
+            <h3>Frontend Developer</h3>
+            <p>June 2024 - August 2024</p>
+            <p>Full Time</p>
+        </div>
+      </div>
+    </div>
+
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form method="post"
+        action="https://formspree.io/f/xyzjegra"
+    >
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Taimour's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+92 3236193586</p>
+          <p> <i class="fas fa-envelope"></i>taimourh05@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Lahore, Pakistan</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/taimourh05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/taimour-hssn1" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <!-- <a href="mailto:taimourh05@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"> -->
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/taimourh05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Taimour Hassan</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Removed emailjs: using Formspree for contact form -->
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
 </html>
