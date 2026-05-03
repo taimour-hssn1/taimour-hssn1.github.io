@@ -1,0 +1,42 @@
+import { TypeAnimation } from "react-type-animation";
+import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
+import AsciiPortrait from "./AsciiPortrait";
+import FadeInSection from "./FadeInSection";
+const Hero = () => {
+    return (
+         <div id="intro">
+      <div className="intro-simulation">
+        <AsciiPortrait />
+      </div>
+      <div className="intro-block">
+        <div className="intro-title">
+          {"hi, "}
+          <span className="intro-name">
+            <TypeAnimation
+              sequence={["taimour"]}
+              wrapper="span"
+              cursor={false}
+              repeat={0}
+            />
+          </span>
+          {" here."}
+          <span className="intro-cursor">|</span>
+        </div>
+        <FadeInSection>
+          <div className="intro-desc">
+            Compter Science freshie in Lahore. I optimized fintech solutions at 
+            Infotech at day time and I usually try to build something interesting by night.
+            Sometimes, I do both at the same time.
+          </div>
+          <a href="mailto:taimourh05@gmail.com" className="intro-contact">
+            <EmailRoundedIcon />
+            {" Say hi!"}
+          </a>
+        </FadeInSection>
+      </div>
+    </div>
+    );
+
+};
+
+export default Hero;
