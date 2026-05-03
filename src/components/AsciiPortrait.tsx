@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { asciiData } from "../assets/asciiData.js";
+import { config } from "../config";
 
 // Module-level cache to persist between remounts
 const memoryCache = {};
@@ -131,7 +132,7 @@ const AsciiPortrait = () => {
     // 3. Fallback to image processing
     const img = new Image();
     img.crossOrigin = "Anonymous";
-    img.src = "/profile.jpeg";
+    img.src = config.profileImage;
     img.onload = () => {
       const raw = processImage(img, size);
       console.log(`ASCII_DATA_START:${size}`);

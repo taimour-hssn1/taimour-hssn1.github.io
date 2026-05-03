@@ -2,6 +2,8 @@ import { TypeAnimation } from "react-type-animation";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import AsciiPortrait from "./AsciiPortrait";
 import FadeInSection from "./FadeInSection";
+import { config } from "../config";
+
 const Hero = () => {
     return (
          <div id="intro">
@@ -13,7 +15,7 @@ const Hero = () => {
           {"hi, "}
           <span className="intro-name">
             <TypeAnimation
-              sequence={["taimour"]}
+              sequence={[config.nickname]}
               wrapper="span"
               cursor={false}
               repeat={0}
@@ -28,7 +30,7 @@ const Hero = () => {
             Infotech at day time and I usually try to build something interesting by night.
             Sometimes, I do both at the same time.
           </div>
-          <a href="mailto:taimourh05@gmail.com" className="intro-contact">
+          <a href={`mailto:${config.email}`} className="intro-contact">
             <EmailRoundedIcon />
             {" Say hi!"}
           </a>

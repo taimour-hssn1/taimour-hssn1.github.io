@@ -1,15 +1,11 @@
 import React from "react";
 import Hero from "./components/Hero";
-// import Experience from "./components/Experience";
-// import About from "./components/About";
-// import Projects from "./components/Projects";
-// import HardwareProjects from "./components/HardwareProjects";
-// import ProjectLog from "./components/ProjectLog";
-// import Art from "./components/Art";
-// import ArtGallery from "./components/ArtGallery";
-// import Credits from "./components/Credits";
-// import NavBar from "./components/NavBar";
-// import SidebarNav from "./components/SidebarNav";
+import Experience from "./components/Experience";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Credits from "./components/Credits";
+import NavBar from "./components/NavBar";
+import SidebarNav from "./components/SidebarNav";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import "./App.css";
@@ -26,8 +22,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <NavBar />
-      <SidebarNav /> */}
+      <NavBar />
+      <SidebarNav />
       <div id="content">
         <Routes>
           <Route
@@ -35,17 +31,13 @@ function App() {
             element={
               <>
                 <Hero />
-                {/* <About />
+                <About />
                 <Experience />
                 <Projects />
-                <HardwareProjects />
-                <Art />
-                <Credits /> */}
+                <Credits />
               </>
             }
           />
-          {/* <Route path="/art" element={<ArtGallery />} />
-          <Route path="/hardware/:projectId" element={<ProjectLog />} /> */}
         </Routes>
       </div>
     </div>
