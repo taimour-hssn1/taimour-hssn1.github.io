@@ -1,4 +1,5 @@
 import React from "react";
+import { config } from "../config";
 import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 
@@ -47,7 +48,7 @@ const About = () => {
             {two}
           </div>
           <div className="about-image">
-            <img alt="taimour" src={"/assets/taimour.png"} />
+            <img alt="taimour" src={config.profileImage} />
           </div>
         </div>
       </FadeInSection>
