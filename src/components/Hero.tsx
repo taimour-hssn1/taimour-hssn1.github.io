@@ -26,8 +26,8 @@ const Hero = () => {
         </div>
         <FadeInSection>
           <div className="intro-desc">
-            Compter Science freshie in Lahore. I optimized fintech solutions at 
-            Infotech at day time and I usually try to build something interesting by night.
+            Software Engineer in Lahore. I provide MLOps / DevOps solutions at 
+            GoSaaS Inc at day time and I usually try to build something interesting by night.
             Sometimes, I do both at the same time.
           </div>
           <a href={`mailto:${config.email}`} className="intro-contact">
