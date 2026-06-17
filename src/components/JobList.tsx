@@ -50,9 +50,18 @@ const JobList = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const experienceItems = {
+    GoSaaSInc: {
+      jobTitle: "Software Engineer",
+      duration: "June 2026 - Present",
+      desc: [
+        "Working as a DevOps and MLOps Engineer",
+        "Providing scalable solutions to Oracle services / Oracle Cloud Infrastructure (OCI)",
+        "Currently learning and improvising new concepts in AI/ML, DevOps and MLOps",
+      ],
+    },
     InfoTech: {
-      jobTitle: "",
-      duration: "FEB 2026 - Present",
+      jobTitle: "CPP Developer",
+      duration: "Jan 2026 - June 2026",
       desc: [
         "Worked on Real time signaling Desktop Apps in QT to mkake them cross-platform",
         "Fixed and added optimized solutions in Pakistan's largest stockes market trading platform PMEX to make it able to handle concurrent users with better accuracy",

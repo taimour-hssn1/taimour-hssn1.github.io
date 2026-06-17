@@ -7,8 +7,8 @@ const About = () => {
   const one = (
     <p>
       I am currently an <b>Associate Software Engineer</b> at
-      <a href="https://infotechgroup.com/"> InfoTech</a>, where I help build and bug fix
-      our fintech platform. Previously, I was at{" "}
+      <a href="https://www.gosaas.ai/"> goSaaS Inc</a>, where I help build, bug fix
+      and provide solution to real world problems using Oracle services. Previously, I was at{" "}
       <a href="https://zendevco.com/"> Zendev</a> working as a Python Developer.
     </p>
   );
@@ -26,6 +26,10 @@ const About = () => {
     "Java",
     "Javascript ES6+",
     "C++",
+    "DevOps/MLOps",
+    "Docker",
+    "Jenkins", 
+    "CI/CD pipelines"
   ];
 
   return (
